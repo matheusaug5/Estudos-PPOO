@@ -1,0 +1,47 @@
+programa para ajudar alunos da escola primária no aprendizado da
+multiplicação
+
+possuir enunciado e gabarito
+
+contrutor gera a o enuncuiado "quanto é num1 * num2?" num 1 e num 2
+devem ser gerados aleatoriamente entre 0 e 9(nextInt da classe Random)
+
+um geter para consultar o enunciado
+
+um metodo boolean que retorna certo ou errado, recebendo como parametro
+a resposta do aluno
+
+criar classe prova
+    cada prova de conter uma unica questao
+    metodo aplicar quando chamada exibe uma questao
+
+    Muito bem, você acertou!
+    Infelizmente você errou!
+
+
+etapa 2
+
+alterar metodo aplicar para ser possivel responder mais de uma vez caso errar(maximo 2)
+
+no caso deve aparecer "Você ganhou mais uma chance! Digite outra
+resposta para a questão: "
+
+Além disso, após verificar a corretude da(s) resposta(s), imprima na tela
+uma das mensagens a seguir (onde x corresponde ao número de vezes que o usuário respondeu
+aquela questão):
+• Você tentou x vez(es) e acertou a questão.
+• Você tentou 2 vezes e errou a questão.
+
+etapa 3
+
+classe questao deve conter o atributo nume da questao, meto para consultar esse atributo
+
+Queremos tratar a numeração dos exercícios de forma que ela seja automática (sem precisar ser
+informada pelo usuário). Para isso, crie um atributo estático na classe Questao que armazena o
+número da última questão criada (inicialmente tem o valor zero). No construtor da classe Questao
+esse atributo deve ser incrementado e seu valor usado como o número do exercício que está sendo
+criado (ao invés de ser recebido por parâmetro).
+
+aprensetar antes do enunciado o numero da questao
+
+alterar construtor classe prova para conter 5 questoes

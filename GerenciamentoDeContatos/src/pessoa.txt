@@ -1,0 +1,31 @@
+pessoa
+    nome
+    endereço
+    email
+
+pessoa fisica extend pessoa
+    cpf
+    estado civil
+
+pessoa juridica extend pessoa
+    cnpj
+    inscricao estadual
+
+menu
+=======Menu de Opções=======
+1 - Cadastrar uma pessoa física
+2 - Cadastrar uma pessoa jurídica
+3 - Remover um contato
+4 - Imprimir dados da agenda
+5 - Sair
+
+
+remoçao deve ser feita por cpf ou cnpj
+se o informado nao existir emitir mensagem de erro
+
+todos os atributos devem ser passados como parametro
+
+menu para interação
+
+app apenas para iniciar as operações
+

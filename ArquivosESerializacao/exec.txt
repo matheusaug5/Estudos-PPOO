@@ -1,0 +1,44 @@
+ser capaz de ler arquivo bin e txt
+retonar dados no terminal e num txt
+
+menu:
+    1-carregar dados do arquivo texto (dadosTexto.txt)
+    2-carregar dados do arquivo binario (dadosBinario.bin)
+    3-gerar relatorio na tela
+    4-salvar relatorio em arquivo texto
+    5-sair
+
+opcao 3 o usuario digita cpf do cliente 
+dados da compra devem estar ordenados em ordem crescente de acordo com o valor dos produtos compras apenas do cliente informado
+
+opcao 4 mesmo arquivo texto porem com o nome sendo o cpfDoCliente.txt
+
+opcao 5 deve encerrar a aplicacao
+
+forcar a escolha da opcao um ou dois na primeira interação caso contrario nao tera dados
+para o relatorio
+
+historico de compras apenas uma lista das compras realizadas
+compra apenas o cpf do cliente, data, nome do produto e preco do produto
+
+classe menu: apenas a geraçao do menu de opções, leitura de todos os dados, e pelo chamado
+dos metodos implementados nas demais classes
+
+ManipuladorDeArquivos: classe para leitura dos arquivos, unico parametro nome do arquivo a ser lido
+
+metodos de leitura de arquivo deve retornar um objeto contendo todo o historico de compras
+
+fechamento java usar try-with-resources
+
+usar o metodo toString
+
+solucao para qualquer quantidade de transações
+
+getComparadorPorPreco, retorna um objeto comparator realiza ordenacao dos dados
+
+imprimir mensagens ao captar excessoes informando o ocorrido
+
+Para as classes que implementam Serializable, acrescente uma constante que indique a sua versão
+da seguinte maneira: private static final long serialVersionUID = 1L;
+
+Classes Menu, ManipuladorDeArquivos, HistoricoDeCompras, Compra, Produto, Cliente

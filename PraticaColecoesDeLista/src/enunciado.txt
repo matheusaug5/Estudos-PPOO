@@ -1,0 +1,8 @@
+Diciplina tem apenas o codigo porem ela que gera a lista de alunos matriculados
+Aluno tem nome(string), nota(inteiro entre [0,100]), quantidade de faltas
+para ser aprovado precisa de nota >= 60 e falta < 19
+
+main nao sofre alteração
+
+objetivo gerar o diario de sala com as notas dos alunos em ordem decrescente
+
