@@ -1,3 +1,13 @@
+# Saída de compilação Java
 bin/
+out/
 *.class
+
+# Pacotes
 *.zip
+*.jar
+
+# Sistema operacional / OneDrive
+Thumbs.db
+desktop.ini
+.DS_Store
